@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<!--
+Author:   David Truesdale
+Date:     10/27/2020
+File:     add-sales-person.html
+Purpose:  MySQL Exercise
+-->
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MySQL Query</title>
+    <link href="../css/styles.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <h1>NEW SALES STAFF - ENTRY FORM</h1>
+    
+    <p>All new sales staff will receive the job title 'sales' and an hourly wage of $8.25.</p>
+    <form action = "add-sales-person.php" method = "post">
+      <label for="empID">ID</label><input type = "text" size = "20" name = "empID" id="empID"><br>
+      <label for="firstName">First Name</label><input type = "text" size = "20" name = "firstName" id="firstName"><br>
+      <label for="lastName">Last Name</label><input type = "text" size = "20" name = "lastName" id="lastName"><br>
+      <input type = "submit" value = "Submit">
+    </form>
+    
+    <footer>
+        <a href="index.html">Back to asgn08</a>
+    </footer>
+  </body>
+</html>
